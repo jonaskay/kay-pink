@@ -1,14 +1,24 @@
 ---
-title: Home
+title: Jonas Kay (Joonas Kykkänen)
 ---
 
-<div class="flex items-center justify-center w-screen h-screen bg-indigo-darkest">
-  <div class="hello flex items-center w-64 h-64 p-8 border border-indigo-darker rounded-full shadow-inner bg-indigo-darker">
-    <h1 class="text-center text-indigo-lightest font-mono leading-tight">Hello, World!</h1>
-  </div>
+<div class="sm:max-w-sm mx-auto">
+  <header class="header px-4 pt-6 sm:mt-8 sm:rounded">
+    <div class="content">
+      <%= image_tag "joonas-kykkanen.jpg", width: 192,
+                                           class: "rounded-lg shadow-lg -mb-8" %>
+    </div>
+  </header>
+  <main class="pt-8 px-4 bg-white leading-normal">
+    <div class="content">
+      <p class="my-4">Hi! I'm Jonas Kay (Joonas Kykkänen)—a software developer from Helsinki, Finland.</p>
+      <p class="my-2">Here's some useful info about me:</p>
+      <ul>
+        <li class="my-2">I work at <a href="https://www.kiskolabs.com/">Kisko Labs</a></li>
+        <li class="my-2">I write weekly on <a href="http://www.flashover.blog/">my blog</a></li>
+        <li class="my-2">I share my code on <a href="https://github.com/jonaskay">GitHub</a></li>
+      </ul>
+      <p class="my-8 text-right text-sm">Email me at <a href="mailto:jonas@kay.pink">jonas@kay.pink</a></p>
+    </div>
+  </main>
 </div>
-<footer class="fixed pin-b pin-r py-4 px-6">
-  <a href="https://github.com/jonaskay/middleman-boilerplate">
-    <%= image_tag "github.png", width: 24, height: 24 %>
-  </a>
-</footer>
