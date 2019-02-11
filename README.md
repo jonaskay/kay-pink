@@ -1,4 +1,6 @@
-# README
+# Kay.pink
+
+This is my personal website built with [Middleman](https://middlemanapp.com/).
 
 ## Getting started
 
