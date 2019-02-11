@@ -3,6 +3,6 @@
   publish = "build/"
 [[redirects]]
   from = "http://kay.netlify.com/*"
-  to = "http://kay.pink/:splat"
+  to = "http://www.kay.pink/:splat"
   status = 301
   force = true
