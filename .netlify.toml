@@ -2,7 +2,7 @@
   command = "bundle exec middleman build"
   publish = "build/"
 [[redirects]]
-  from = "http://focused-shockley-90ed85.netlify.com/*"
+  from = "http://kay.netlify.com/*"
   to = "http://kay.pink/:splat"
-  status = 301!
+  status = 301
   force = true
