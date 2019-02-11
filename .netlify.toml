@@ -4,4 +4,5 @@
 [[redirects]]
   from = "http://focused-shockley-90ed85.netlify.com/*"
   to = "http://kay.pink/:splat"
-  status = 301
+  status = 301!
+  force = true
