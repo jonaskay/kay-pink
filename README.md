@@ -1,4 +1,5 @@
 # Kay.pink
+[![Build Status](https://travis-ci.com/jonaskay/kay-pink.svg?branch=master)](https://travis-ci.com/jonaskay/kay-pink)
 
 This is my personal website built with [Middleman](https://middlemanapp.com/).
 
